@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Webp Converter
+Comment=Convert WebP images to JPEG or PNG
+Exec=/home/plamen/Webp_To_JPEG-PNG_Converter/script.sh
+Icon=/home/plamen/Webp_To_JPEG-PNG_Converter/assets/convert.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
