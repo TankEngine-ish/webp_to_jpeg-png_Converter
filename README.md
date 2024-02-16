@@ -46,5 +46,5 @@ Also you might need to right click on the icon first and press "Allow Launching"
 
 Here's a short gif:
 
-
+![gif](./assets/video_app.gif) 
 
