@@ -3,6 +3,13 @@
 # creates a file selection dialog to get the selected file path
 file_path=$(zenity --file-selection --file-filter='*.webp' --title="Select a .webp image")
 
+
+# Check if the user clicked "Cancel"
+if [ $? -ne 0 ]; then
+    exit
+fi
+
+
 # creates a list dialog to get the selected output format
 output_format=$(zenity --list --radiolist --title="Select output format" --column="Select" --column="Format" TRUE "jpeg" FALSE "png")
 
